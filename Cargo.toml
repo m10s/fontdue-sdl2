@@ -12,10 +12,10 @@ maintenance = { status = "passively-maintained" }
 
 [dependencies]
 # If either of these is out-of-date, please open an issue.
-sdl2 = "^0.35"
-fontdue = "^0.7"
+sdl2 = "0.35"
+fontdue = { path = "../fontdue" }
 
-log = "^0.4.14"
+log = "0.4"
 
 [dev-dependencies]
-env_logger = "^0.8.3"
+env_logger = "0.10"
